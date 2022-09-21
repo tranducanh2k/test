@@ -1,0 +1,15 @@
+{
+    "content": {
+        "homepage": "Trang chủ",
+        "signin": "Đăng nhập",
+        "contact": "Liên hệ",
+        "chooseBikePlease": "Hãy chọn một bãi xe",
+        "noBike": "Không có xe nào trong bãi",
+        "bikeList": "Danh sách xe",
+        "bikePlate": "Biển số xe",
+        "bikeStatus": "Tình trạng xe",
+        "numberOfBike": "Số xe trong bãi",
+        "capacity": "Sức chứa",
+        "logout": "Đăng xuất"
+    }
+}

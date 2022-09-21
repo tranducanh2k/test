@@ -1,0 +1,93 @@
+.header {
+    height: 10vh;
+    background-color: rgb(131, 252, 131);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 3rem 0rem 1rem;
+    align-items: center;
+}
+
+.header img {
+    width: 15rem;
+    cursor: pointer;
+}
+.header .left-div {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.header .right-div {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.header input {
+    height: 2rem;
+    width: 30%;
+    border-radius: 7px;
+    border: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.header a:hover {
+    color: green;
+}
+
+.header .sidebar {
+    position: absolute;
+    left: -25vw;
+    transition: 0.3s;
+    z-index: 999;
+    position: absolute;
+    top: 10vh;
+    background-color: white;
+    width: 25vw;
+    height: 90vh;
+}
+.header .sidebar.opened {
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 999;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    background-color: white;
+    width: 25vw;
+    height: 90vh;
+}
+
+.header .sidebar .name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: green;
+}
+
+.header .sidebar .description {
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    overflow-y: auto;
+}
+
+.header .sidebar .bike-list {
+    margin-top: 10px;
+    height: 70vh;
+    overflow-y: auto;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    border-radius: 5px;
+}
+
+.header .sidebar .bike-list .bike-list-item {
+    border-bottom: 1px grey solid;
+    width: 100%;
+    margin-bottom: 20px;
+}

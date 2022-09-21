@@ -1,0 +1,15 @@
+{
+    "content": {
+        "homepage": "Homepage",
+        "signin": "Signin",
+        "contact": "Contact",
+        "chooseBikePlease": "Please choose a bike",
+        "noBike": "No bike in the dock",
+        "bikeList": "Bike list",
+        "bikePlate": "Bike plate",
+        "bikeStatus": "Bike status",
+        "numberOfBike": "Number of bike in this dock",
+        "capacity": "Dock capacity",
+        "logout": "Log out"
+    }
+}
